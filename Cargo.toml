@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 
 [dependencies.embedded-hal]
-version = "=1.0.0-alpha.11"
+version = "=1.0.0-alpha.8"
