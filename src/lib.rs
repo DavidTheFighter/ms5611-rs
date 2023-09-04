@@ -13,7 +13,7 @@ pub enum OversampleRatio {
     Osr4096 = 0x48,
 }
 
-use embedded_hal::i2c::I2c;
+use embedded_hal::i2c::blocking::I2c;
 pub struct Ms5611<I2C> {
     address: u8,
     i2c: I2C,
